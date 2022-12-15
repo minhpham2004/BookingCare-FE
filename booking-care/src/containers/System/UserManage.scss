@@ -1,0 +1,100 @@
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td,
+#customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+    background-color: #ddd;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+.btn-delete {
+    width: 50px;
+    border: none;
+    margin: none;
+    outline: none;
+    padding: 0 !important;
+    background: transparent;
+    color: red;
+
+    &:hover {
+        background-color: transparent !important;
+        color: red;
+    }
+}
+
+.btn-edit {
+    width: 50px;
+    border: none;
+    outline: none;
+    color: orange;
+    background: bisque;
+}
+
+.modal-user-container {
+    .model-content {
+        .model-title {
+            button {
+                background-color: red;
+            }
+        }
+    }
+
+    .modal-user-body {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+
+        .input-container {
+            display: flex;
+            flex-direction: column;
+            width: 49%;
+
+            &.max-width-input {
+                width: 100%;
+            }
+
+            input {
+                border-radius: 3px;
+                border: 1px solid gray;
+                height: 30px;
+                width: 100%;
+                outline: none;
+                padding: 0 10px;
+            }
+        }
+    }
+}
+
+.big-modal {
+    .modal-content {
+        border: none;
+
+        .model-header {
+            button {
+                background-color: transparent !important;
+                color: white;
+                border: none;
+                font-size: 27px;
+            }
+        }
+    }
+}

@@ -1,0 +1,112 @@
+.detail-specialty-container {
+    margin-top: 80px;
+    background-color: #eee;
+
+    .detail-specialty-body {
+        padding: 40px 100px 0 100px;
+        background-color: #eee;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .search-specialty-doctor {
+        select {
+            height: 30px;
+            padding: 5px 6px;
+            border: none;
+            outline: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+    }
+
+    .description-specialty {
+        padding: 10px;
+        background-color: white;
+        border-radius: 5px;
+        margin-bottom: 20px;
+
+        h1 {
+            font-size: 25px;
+            font-weight: 600;
+            padding-bottom: 10px;
+        }
+
+        h2,
+        h3 {
+            font-size: 16px;
+            font-weight: 600;
+        }
+    }
+
+    .each-doctor {
+        display: flex;
+        width: 100%;
+        min-height: 300px;
+        margin: 15px 0;
+        padding: 10px;
+        background-color: #fff;
+        box-shadow: 0 1px 6px #20212447;
+        border-radius: 10px;
+
+        .dt-content-left {
+            width: 50%;
+            border-right: 1px solid #ddd;
+        }
+
+        .dt-content-right {
+            width: 50%;
+            padding: 10px;
+
+            .doctor-schedule {
+                .doctor-schedule-container {
+                    border-right: none !important;
+                }
+            }
+
+            .doctor-extra-info {
+                border-top: 1px solid #ddd;
+                margin-top: 10px;
+                padding-top: 10px;
+
+                .doctor-extra-info-container {
+                    padding-left: 0 !important;
+                }
+            }
+        }
+    }
+}
+
+.profile-doctor-container .intro-doctor .content-right .down {
+    padding-right: 10px;
+}
+
+
+@media (max-width: 600px) {
+    .each-doctor {
+        flex-direction: column;
+        
+
+        .dt-content-left {
+            width: 100% !important;
+            border-right: none !important;
+        }
+
+        .dt-content-right {
+            width: 100% !important;
+            padding: 0 !important;
+        }
+    }
+
+    .profile-doctor-container .intro-doctor {
+        flex-direction: column;
+
+        .content-right {
+            padding-left: 0;
+        }
+    }
+
+    .doctor-extra-info-container .content-down .info-box .detail-info {
+        min-width: 0 !important;
+    }
+}

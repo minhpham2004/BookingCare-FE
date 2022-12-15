@@ -1,0 +1,215 @@
+{
+  "homeheader": {
+    "specialty": "Chuyên khoa",
+    "find-doctor": "Tìm bác sĩ theo chuyên khoa",
+    "hospital-institutions": "Cơ sở y tế",
+    "choose-hospital": "Chọn bệnh viện phòng khám",
+    "doctor": "Bác sĩ",
+    "choose-good-doctor": "Chọn bác sĩ giỏi",
+    "medication-fee": "Gói khám",
+    "overall-check": "Khám sức khỏe tổng quát",
+    "support": "Hỗ trợ",
+    "welcome": "Xin chào,"
+  },
+
+  "homebanner": {
+    "homebanner-title": {
+      "medical-base": "NỀN TẢNG Y TẾ",
+      "medical-overall-care": "CHĂM SÓC SỨC KHỎE TOÀN DIỆN"
+    },
+    "homebanner-options": {
+      "specialized-medication": "Khám Chuyên khoa",
+      "remote-checkup": "Khám từ xa",
+      "general-medication": "Khám tổng quát",
+      "medical-test": "Xét nghiệm y học",
+      "mental-healthcare": "Sức khỏe tinh thần",
+      "dentist-check": "Khám Nha khoa"
+    }
+  },
+
+  "menu": {
+    "system": {
+      "header": "Hệ thống",
+      "title": "Quản lí người dùng",
+      "system-administrator": {
+        "header": "Quản trị hệ thống",
+        "user-manage": "Quản lý người sử dụng",
+        "user-redux": "Quản lý người dùng Redux",
+        "register-package-group-or-account": "Đăng ký gói dịch vụ cho nhóm/tài khoản"
+      },
+      "system-parameter": {
+        "header": "Tham số hệ thống"
+      }
+    },
+    "admin": {
+      "manage-user": "Quản lí người dùng",
+      "manage-doctor": "Quản lí bác sĩ",
+      "manage-admin": "Quản lí admin",
+      "crud": "CRUD người dùng",
+      "redux-crud": "Redux CRUD",
+      "clinic": "Phòng khám",
+      "manage-clinic": "Quản lí phòng khám",
+      "specialty": "Chuyên khoa",
+      "manage-specialty": "Quản lí chuyên khoa",
+      "handbook": "Cẩm nang",
+      "manage-handbook": "Quản lí cẩm nang"
+    },
+    "doctor": {
+      "manage-schedule": "Quản lí kế hoạch khám bệnh"
+    }
+  },
+
+  "manage-user": {
+    "add": "Thêm mới người dùng",
+    "edit-title": "Sửa thông tin người dùng",
+    "email": "Email",
+    "password": "Mật khẩu",
+    "first-name": "Tên",
+    "last-name": "Họ và tên đệm",
+    "phone-number": "SĐT",
+    "address": "Địa chỉ",
+    "gender": "Giới tính",
+    "position": "Vị trí",
+    "role": "Chức vụ",
+    "image": "Ảnh đại diện",
+    "preview": "Nhấn để xem ảnh đại diện",
+    "save": "Lưu người dùng",
+    "edit": "Lưu chỉnh sửa"
+  },
+
+  "system": {
+    "user-manage": {
+      "fail-to-load-fouser": "Không thể tải về danh sách người dùng",
+      "user-id": "Mã người sử dụng",
+      "usertype": "Loại người dùng",
+      "username": "Tên người dùng",
+      "fullname": "Tên đầy đủ",
+      "mobile": "Số điện thoại",
+      "email": "Email",
+      "status": "Trạng thái",
+      "add-user": "Thêm người dùng",
+      "edit-user": "Sửa thông tin người dùng",
+      "password": "Mật khẩu",
+      "retype-password": "Nhập lại mật khẩu",
+      "add-user-success": "Thêm người dùng thành công",
+      "edit-user-success": "Thay đổi thông tin người dùng thành công",
+      "add-user-fail": "Thêm người dùng thất bại",
+      "edit-user-fail": "Thay đổi thông tin người dùng thất bại",
+      "del-user-success": "Xóa người dùng thành công",
+      "del-user-fail": "Xóa người dùng thất bại",
+      "invalid-input": {
+        "username": "Quý khách vui lòng nhập tên người dùng",
+        "fullname": "Quý khách vui lòng nhập tên đầy đủ",
+        "password": "Quý khách vui lòng nhập mật khẩu"
+      },
+      "sure-delete-user": "Bạn có chắc chắn muốn xóa người dùng này?"
+    },
+    "product-manage": {
+      "fail-to-load-foprtype": "Không thể tải về danh sách gói",
+      "prid": "Mã gói",
+      "prname": "Tên gói",
+      "prtype": "Loại gói",
+      "status": "Trạng thái",
+      "description": "Diễn giải",
+      "effective-date": "Ngày hiệu lực",
+      "expiration-date": "Ngày hết hiệu lực",
+      "add-product": "Thêm gói",
+      "add-product-success": "Thêm gói thành công",
+      "add-product-fail": "Thêm gói thất bại",
+      "edit-product": "Sửa thông tin gói",
+      "package-decentralize": "Phân quyền chức năng",
+      "edit-product-success": "Thay đổi thông tin gói thành công",
+      "edit-product-fail": "Thay đổi thông tin gói thất bại",
+      "delete-product-success": "Xóa gói thành công",
+      "delete-product-fail": "Xóa gói thất bại",
+      "invalid-input": {
+        "prid": "Quý khách vui lòng nhập mã gói",
+        "prname": "Quý khách vui lòng nhập tên gói"
+      },
+      "fail-to-load-decentralize-info": "Không thể tải về thông tin phân quyền chức năng",
+      "save-decentralize-success": "Lưu phân quyền chức năng thành công",
+      "save-decentralize-fail": "Lưu phân quyền chức năng thất bại",
+      "sure-delete-package": "Bạn có chắc chắn muốn xóa gói này?"
+    },
+    "register-package-group-or-acc": {
+      "assign-service-package-to-customer": "Gán gói dịch vụ cho khách hàng",
+      "package-name": "Tên gói",
+      "assign-type": "Loại gán",
+      "cust-acc-group": "Nhóm KH/Tài khoản",
+      "effective-date": "Ngày hiệu lực",
+      "expiration-date": "Ngày hết hiệu lực",
+      "assign": "Gán",
+      "manage-assign-groups": "Quản lý gán nhóm",
+      "group-cust-acc-name": "Tên nhóm/tài khoản KH",
+      "del-assign": "Xóa gán",
+      "fail-to-load-manage-assign-groups-list": "Không thể tải về thông tin quản lý gán nhóm",
+      "invalid-selected": {
+        "currentfoProduct": "Gói đang chọn không hợp lệ",
+        "currentAssignType": "Loại gán không hợp lệ",
+        "currentFoUser": "Nhóm KH/Tài khoản không hợp lệ"
+      },
+      "assign-service-package-to-customer-success": "Gán gói dịch vụ cho khách hàng thành công",
+      "assign-service-package-to-customer-fail": "Gán gói dịch vụ cho khách hàng thất bại",
+      "remove-assign-success": "Bỏ gán gói dịch vụ cho khách hàng thành công",
+      "remove-assign-fail": "Bỏ gán gói dịch vụ cho khách hàng thất bại",
+      "sure-delete-assign": "Bạn có chắc chắn muốn bỏ gán gói dịch vụ cho khách hàng?"
+    }
+  },
+
+  "homepage": {
+    "outstanding-doctor": "Bác sĩ nổi bật",
+    "more-info": "Xem thêm",
+    "search": "Tìm kiếm",
+    "popular-specialties": "Chuyên khoa phổ biến",
+    "top-clinics": "Cơ sở y tế nổi bật"
+
+  },
+
+  "manage-schedule": {
+    "title": "Quản lí kế hoạch khám bệnh của bác sĩ",
+    "choose-doctor": "Chọn bác sĩ",
+    "choose-date": "Chọn ngày",
+    "save-info": "Lưu thông tin"
+  },
+
+  "patient": {
+    "detail-doctor": {
+      "schedule": "Lịch khám bệnh",
+      "no-schedule": "Bác sĩ không có lịch hẹn trong khoảng thời gian này. Vui lòng chọn hôm khác!",
+      "address": "Địa chỉ",
+      "examination-fee": "Giá khám",
+      "hide": "Ẩn bảng giá",
+      "view-detail": "Xem chi tiết",
+      "payment": "Người dùng có thể thanh toán bằng hình thức: "
+    },
+    "booking-modal": {
+      "booking-info-title": "Thông tin đặt lịch khám bệnh",
+      "name": "Họ và tên",
+      "phone": "SĐT",
+      "gender": "Giới tính",
+      "choose-gender": "Chọn giới tính",
+      "address": "Địa chỉ liên hệ",
+      "email": "Email",
+      "DOB": "Ngày sinh",
+      "reason": "Lý do khám"
+    }
+  },
+
+  "admin": {
+    "manage-doctor": {
+      "title": "Tạo thêm thông tin bác sĩ",
+      "choose-doctor": "Chọn bác sĩ",
+      "introduction": "Thông tin giới thiệu",
+      "intro-placeholder": "Giới thiệu sơ qua về bác sĩ",
+      "save-info": "Lưu thông tin",
+      "create-info": "Tạo thông tin",
+      "choose-price": "Chọn giá",
+      "choose-payment": "Chọn phương thức thanh toán",
+      "choose-province": "Chọn tỉnh thành",
+      "choose-specialty": "Chọn chuyên khoa",
+      "name-clinic": "Tên phòng khám",
+      "address-clinic": "Địa chỉ phòng khám",
+      "note": "Ghi chú"
+    }
+  }
+}

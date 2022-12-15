@@ -1,0 +1,214 @@
+{
+  "homeheader": {
+    "specialty": "Specialty",
+    "find-doctor": "Find doctors by specialties",
+    "hospital-institutions": "Hospital Institutions",
+    "choose-hospital": "Choosing hospital",
+    "doctor": "Doctors",
+    "choose-good-doctor": "Choose good doctors",
+    "medication-fee": "Medication fees",
+    "overall-check": "Overall check",
+    "support": "Support",
+    "welcome": "Welcome,"
+  },
+
+  "homebanner": {
+    "homebanner-title": {
+      "medical-base": "MEDICAL BACKGROUND",
+      "medical-overall-care": "COMPREHENSIVE HEALTH CARE"
+    },
+    "homebanner-options": {
+      "specialized-medication": "Specialized medication",
+      "remote-checkup": "Remote check up",
+      "general-medication": "General medication",
+      "medical-test": "Medical test",
+      "mental-healthcare": "Mental healthcare",
+      "dentist-check": "Dentist check"
+    }
+  },
+
+  "menu": {
+    "system": {
+      "header": "System",
+      "title": "Manage Users",
+      "system-administrator": {
+        "header": "System Administrator",
+        "user-manage": "User manage",
+        "user-redux": "Manage user with Redux",
+        "register-package-group-or-account": "Register service package for group/account"
+      },
+      "system-parameter": {
+        "header": "System-parameter"
+      }
+    },
+    "admin": {
+      "manage-user": "Manage users",
+      "manage-doctor": "Manage doctors",
+      "manage-admin": "Mangage admins",
+      "crud": "CRUD users",
+      "redux-crud": "Redux CRUD",
+      "clinic": "Clinics",
+      "manage-clinic": "Manage clinics",
+      "specialty": "Specialties",
+      "manage-specialty": "Manage specialty",
+      "handbook": "Handbook",
+      "manage-handbook": "Manage handbook"
+    },
+    "doctor": {
+      "manage-schedule": "Manage Doctor's schedule"
+    }
+  },
+
+  "manage-user": {
+    "add": "Add users",
+    "edit-title": "Edit user",
+    "email": "Email",
+    "password": "Password",
+    "first-name": "First Name",
+    "last-name": "Last Name",
+    "phone-number": "Phone Number",
+    "address": "Address",
+    "gender": "Gender",
+    "position": "Position",
+    "role": "Role",
+    "image": "Choose avatar",
+    "preview": "Click to preview your avatar",
+    "save": "Save user",
+    "edit": "Save Changes"
+  },
+
+  "system": {
+    "user-manage": {
+      "fail-to-load-fouser": "Fail to load system users list",
+      "user-id": "User ID",
+      "usertype": "User type",
+      "username": "Username",
+      "fullname": "Fullname",
+      "mobile": "Phone",
+      "email": "Email",
+      "status": "Status",
+      "add-user": "Add user",
+      "edit-user": "Edit user information",
+      "password": "Password",
+      "retype-password": "Retype password",
+      "add-user-success": "Add user successfully",
+      "edit-user-success": "Change user information successfully",
+      "add-user-fail": "Fail to add user",
+      "edit-user-fail": "Fail to change user information",
+      "del-user-success": "Delete user successfully",
+      "del-user-fail": "Fail to delete user",
+      "invalid-input": {
+        "username": "Please fill in username",
+        "fullname": "Please fill in fullname",
+        "password": "Please fill in password"
+      },
+      "sure-delete-user": "Are you sure to delete this user?"
+    },
+    "product-manage": {
+      "fail-to-load-foprtype": "Fail to load packages list",
+      "prid": "Package ID",
+      "prname": "Package name",
+      "prtype": "Package type",
+      "status": "Status",
+      "description": "Description",
+      "effective-date": "Effective date",
+      "expiration-date": "Expiration date",
+      "add-product": "Add package",
+      "add-product-success": "Add package successfully",
+      "add-product-fail": "Fail to add package",
+      "edit-product": "Edit package information",
+      "package-decentralize": "Package decentralize",
+      "edit-product-success": "Edit package information successfully",
+      "edit-product-fail": "Fail to edit package information",
+      "delete-product-success": "Delete package successfully",
+      "delete-product-fail": "Fail to delete package",
+      "invalid-input": {
+        "prid": "Please fill in package ID",
+        "prname": "Please fill in package name"
+      },
+      "fail-to-load-decentralize-info": "Fail to load decentralize info",
+      "save-decentralize-success": "Save decentralization successfully",
+      "save-decentralize-fail": "Fail to save decentralization",
+      "sure-delete-package": "Are you sure to delete this package?"
+    },
+    "register-package-group-or-acc": {
+      "assign-service-package-to-customer": "Assign service package to customer",
+      "package-name": "Package name",
+      "assign-type": "Assign type",
+      "cust-acc-group": "Customer/account group",
+      "effective-date": "Effective date",
+      "expiration-date": "Expiration date",
+      "assign": "Assign",
+      "manage-assign-groups": "Manage assign groups",
+      "group-cust-acc-name": "Group/customer account name",
+      "del-assign": "Del assign",
+      "fail-to-load-manage-assign-groups-list": "Fail to load manage assign groups list",
+      "invalid-selected": {
+        "currentfoProduct": "Invalid package",
+        "currentAssignType": "Invalid assign type",
+        "currentFoUser": "Invalid customer/account group"
+      },
+      "assign-service-package-to-customer-success": "Assign service package to customer successfully",
+      "assign-service-package-to-customer-fail": "Fail to assign service package to customer",
+      "remove-assign-success": "Unassign service package to customer successfully",
+      "remove-assign-fail": "Fail to unassign service package to customer",
+      "sure-delete-assign": "Are you sure to unassign service package to customer?"
+    }
+  },
+
+  "homepage": {
+    "outstanding-doctor": "Outstanding doctors",
+    "more-info": "More info",
+    "search": "Search",
+    "popular-specialties": "Popular specialties",
+    "top-clinics": "Top clinics"
+  },
+
+  "manage-schedule": {
+    "title": "Manage doctor examnation schedule",
+    "choose-doctor": "Choose doctor",
+    "choose-date": "Choose date",
+    "save-info": "Save info"
+  },
+
+  "patient": {
+    "detail-doctor": {
+      "schedule": "Examination schedule",
+      "no-schedule": "Doctor does not have an appointment in this period of time. Please choose different date!",
+      "address": "Address",
+      "examination-fee": "Examination fee",
+      "hide": "Hide",
+      "view-detail": "View details",
+      "payment": "User can pay fee via: "
+    },
+    "booking-modal": {
+      "booking-info-title": "Personal patient booking information",
+      "name": "Full name",
+      "phone": "Phone number",
+      "gender": "Gender",
+      "choose-gender": "Choose your gender",
+      "address": "Current address",
+      "email": "Email",
+      "DOB": "Date of Birth",
+      "reason": "Reason of examination"
+    }
+  },
+
+  "admin": {
+    "manage-doctor": {
+      "title": "Create doctor information",
+      "choose-doctor": "Choose doctor",
+      "introduction": "Brief introduction",
+      "intro-placeholder": "Give a brief intro about the doctor",
+      "save-info": "Save info",
+      "create-info": "Create info",
+      "choose-price": "Choose price",
+      "choose-payment": "Choose payment method",
+      "choose-province": "Choose province",
+      "choose-specialty": "Choose specialty",
+      "name-clinic": "Clinic name",
+      "address-clinic": "Clinic Address",
+      "note": "Note"
+    }
+  }
+}
