@@ -1,0 +1,74 @@
+.manage-patient-container {
+  .m-p-title {
+    text-transform: uppercase;
+    margin: 15px 0;
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .manage-patient-body {
+    padding: 0 20px;
+
+    .table-manage-patient {
+      font-family: Arial, Helvetica, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+
+      td,
+      th {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: center;
+      }
+
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+
+      tr:hover {
+        background-color: #ddd;
+      }
+
+      th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #04AA6D;
+        color: white;
+        text-align: center;
+      }
+
+      button {
+        border: none;
+        outline: none;
+        cursor: pointer;
+      }
+
+      .mp-btn-confirm {
+        margin-right: 10px;
+        height: 30px;
+        border-radius: 3px;
+        background: #ff8900eb;
+      }
+
+      .mp-btn-remedy {
+        margin-right: 10px;
+        height: 30px;
+        border-radius: 3px;
+        background: #39dca0;
+      }
+
+    }
+  }
+}
+
+div._loading_overlay_wrapper {
+  position: unset;
+
+  ._loading_overlay_overlay {
+    z-index: 100000000000000000;
+  }
+}
+
+   

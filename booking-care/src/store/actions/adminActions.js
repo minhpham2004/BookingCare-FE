@@ -2,7 +2,7 @@ import actionTypes from './actionTypes';
 import {
     getAllCodeService, createNewUserService, getAllUsers, deleteUserService, editUserService,
     getTopDoctorHomeService, getAllDoctors, saveDetailDoctorService,
-    getAllSpecialty
+    getAllSpecialty, getAllClinic
 } from '../../services/userService';
 import { toast } from 'react-toastify'
 
@@ -13,9 +13,7 @@ export const fetchGenderStart = () => {
 
             const response = await getAllCodeService('GENDER')
             if (response && response.errCode === 0) {
-                setTimeout(() => {
                     dispatch(fetchGenderSuccess(response.data))
-                }, 3000)
             } else {
                 dispatch(fetchGenderFail())
             }
@@ -311,16 +309,20 @@ export const fetchRequiredDoctorInfo = () => {
             const resProvince = await getAllCodeService('PROVINCE')
             const resSpecialty = await getAllSpecialty()
 
+            const resClinic = await getAllClinic()
+
             if (resPrice && resPrice.errCode === 0
                 && resPayment && resPayment.errCode === 0
                 && resProvince && resProvince.errCode === 0
                 && resSpecialty && resSpecialty.errCode === 0
+                && resClinic && resClinic.errCode === 0
             ) {
                 const data = {
                     resPrice: resPrice,
                     resPayment: resPayment,
                     resProvince: resProvince,
-                    resSpecialty: resSpecialty
+                    resSpecialty: resSpecialty,
+                    resClinic: resClinic
                 }
                 dispatch(fetchDoctorRequiredInfoSuccess(data))
             } else {

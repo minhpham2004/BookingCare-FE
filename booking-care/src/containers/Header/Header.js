@@ -17,6 +17,7 @@ class Header extends Component {
             menuApp: []
         }
     }
+    
     handleChangeLanguage = (language) => {
         this.props.changeLanguageApp(language)
     }

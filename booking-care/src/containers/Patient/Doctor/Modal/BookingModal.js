@@ -16,7 +16,7 @@ import { postPatientBookAppointment } from '../../../../services/userService';
 import { toast } from 'react-toastify';
 import moment from 'moment';
 
-class DefaultClass extends Component {
+class BookingModal extends Component {
     constructor(props) {
         super(props)
         this.state = {
@@ -127,7 +127,6 @@ class DefaultClass extends Component {
                 email: '',
                 address: '',
                 reason: '',
-                gender: '',
                 value: null, //birthday
 
                 selectedGender: '',
@@ -295,4 +294,4 @@ const mapDispatchToProps = dispatch => {
     };
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(DefaultClass);
+export default connect(mapStateToProps, mapDispatchToProps)(BookingModal);

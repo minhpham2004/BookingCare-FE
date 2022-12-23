@@ -43,7 +43,6 @@ class Specialty extends Component {
 
         const { allSpecialties } = this.state
 
-        console.log(allSpecialties)
         return (
             <div className='section-section' style={{ marginTop: "60px" }}>
                 <div className='section-content'>

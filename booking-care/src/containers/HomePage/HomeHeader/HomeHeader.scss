@@ -18,10 +18,16 @@
             display: flex;
 
             i {
+                display: none;
                 font-size: 27px;
                 color: gray;
                 cursor: pointer;
+            }
 
+            @media (max-width: 600px) {
+                i {
+                    display: block;
+                }
             }
 
             .header-logo {
@@ -98,6 +104,24 @@
             }
 
         }
+
+
+        
+        @media (max-width: 600px) {
+            .center-content {
+                display: none;
+            }
+
+            .right-content {
+                display: none;
+            }
+
+            .left-content {
+                width: 100%;
+                justify-content: space-between;
+            }
+        }
+
     }
 }
 
@@ -171,6 +195,11 @@
             justify-content: center;
             gap: 50px;
             padding-bottom: 10px;
+            flex-wrap: wrap;
+
+            @media (max-width: 600px) {
+                gap: 0;
+            }
 
             .option-child {
                 width: 110px;

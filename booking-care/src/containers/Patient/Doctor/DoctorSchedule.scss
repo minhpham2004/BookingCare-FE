@@ -29,7 +29,9 @@
 
             i {
                 margin-right: 10px
-            };
+            }
+
+            ;
 
             span {
                 text-transform: uppercase;
@@ -72,7 +74,11 @@
                 font-style: italic
             }
         }
+    }
+}
 
-
+@media (max-width: 400px) {
+    .doctor-schedule-container {
+        padding-right: 20px
     }
 }

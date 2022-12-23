@@ -57,13 +57,12 @@
                     border: 1px solid gray;
                 }
 
-                .bg-img {
+                .bg-img-clinic {
                     height: 150px;
                     width: 278px;
-                    background: url(../../../assets/medical-facilities/114348-bv-viet-duc.jpg);
-                    background-position: center center;
-                    background-repeat: no-repeat;
-                    background-size: cover;
+                    background-position: center center !important;
+                    background-repeat: no-repeat !important;
+                    background-size: cover !important;
                     background-color: #eee;
                 }
 
@@ -142,7 +141,7 @@
 
             //custom slick css
             .slick-disabled {
-                display: none !important ;
+                display: none !important;
             }
 
             .slick-prev {
@@ -188,5 +187,13 @@
 
         }
 
+    }
+}
+
+@media (max-width: 1000px) {
+    .section-section {
+        .section-content {
+            margin: 0;
+        }
     }
 }

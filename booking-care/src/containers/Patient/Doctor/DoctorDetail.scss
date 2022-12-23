@@ -45,9 +45,7 @@
 
         .schedule-content-left {
             width: 50%;
-        };
-
-        
+        }
     }
 
     .detail-doctor {
@@ -76,5 +74,22 @@
     .comment-doctor {
         height: 100px;
         border-top: 1px solid #ddd;
+    }
+}
+
+@media(max-width: 650px) {
+    .doctor-detail-container {
+
+        .intro-doctor {
+            margin: 0;
+        }
+
+        .schedule-doctor {
+            margin: 0 20px
+        }
+
+        .detail-doctor {
+            padding: 30px;
+        }
     }
 }

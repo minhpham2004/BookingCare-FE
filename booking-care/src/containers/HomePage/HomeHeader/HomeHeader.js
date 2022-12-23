@@ -59,7 +59,7 @@ class HomeHeader extends Component {
                         </div>
                         <div className='right-content'>
                             <div className='support'>
-                                <a href='https://www.google.com/'>
+                                <a href='https://www.google.com/' target='_blank'>
                                     <i className="far fa-question-circle"></i> <FormattedMessage id="homeheader.support" />
                                 </a>
                             </div>

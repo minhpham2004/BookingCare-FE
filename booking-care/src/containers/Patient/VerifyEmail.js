@@ -47,7 +47,7 @@ class VerifyEmail extends Component {
                 <HomeHeader isShowBanner={false} />
                 <div style={{ paddingTop: '100px', textAlign: 'center', fontSize: '20px', fontWeight: '600', textTransform: 'uppercase' }}>
                     {!statusVerify ? <div>...Loading data</div>
-                        : <div>{+errCode === 0 ? <div style={{ color: 'green' }}>Booking Success</div> : <div style={{ color: 'red' }}>Booking Fail</div>}</div>
+                        : <div>{+errCode === 0 ? <div style={{ color: 'green' }}>Booking Success</div> : <div style={{ color: 'red' }}>Appointment has been activated or does not exist</div>}</div>
                     }
                 </div>
             </>

@@ -139,7 +139,7 @@ class Navigator extends Component {
         outerLoop:
         for (let i = 0; i < menus.length; i++) {
             const group = menus[i];
-            if (group.menus && group.menus.length > 0) {
+            if (group && group.menus && group.menus.length > 0) {
                 for (let j = 0; j < group.menus.length; j++) {
                     const menu = group.menus[j];
                     if (menu.subMenus && menu.subMenus.length > 0) {
