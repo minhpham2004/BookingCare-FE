@@ -88,8 +88,6 @@ class DetailSpecialty extends Component {
                     }
                 }
 
-                console.log(arrDoctorId)
-
                 this.setState({
                     dataDetailSpecialty: res.data,
                     arrDoctorId: arrDoctorId,

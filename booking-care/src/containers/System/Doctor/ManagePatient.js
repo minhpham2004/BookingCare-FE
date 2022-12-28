@@ -87,36 +87,37 @@ class ManagePatient extends Component {
         })
 
         const res = await postSendRemedy({
-            email: dataChildFromModal.email,
-            imgBase64: dataChildFromModal.imgBase64,
-            doctorId: dataModal.doctorId,
-            patientId: dataModal.patientId,
-            timeType: dataModal.timeType,
-            language: this.props.language,
-            patientName: dataModal.patientName
-        })
+                email: dataChildFromModal.email,
+                imgBase64: dataChildFromModal.imgBase64,
+                doctorId: dataModal.doctorId,
+                patientId: dataModal.patientId,
+                timeType: dataModal.timeType,
+                language: this.props.language,
+                patientName: dataModal.patientName
+            })
+
 
         if (res && res.errCode === 0) {
-            toast.success('Sending remedy success')
-            this.setState({
-                isOpenRemedyModal: false,
-                isShowLoading: false
-            })
+            setTimeout(() => {
+                toast.success('Sending remedy success')
+                this.setState({
+                    isOpenRemedyModal: false,
+                    isShowLoading: false
+                })
+            }, 2000)
 
             const { user } = this.props
             const { currentDate } = this.state
             const formattedDate = new Date(currentDate).getTime()
 
             this.getDataPatient(user, formattedDate)
-
+            
         } else {
             toast.error('Sending remedy error')
             this.setState({
                 isShowLoading: false
             })
         }
-
-
 
     }
 

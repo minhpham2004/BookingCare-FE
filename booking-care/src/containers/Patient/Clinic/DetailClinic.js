@@ -27,9 +27,7 @@ class DetailClinic extends Component {
                 let data = res.data
                 let arrDoctorId = []
                 if (data && Object.keys(res.data).length !== 0) {
-                    console.log('data', data)
                     let arr = data.doctorClinic
-                    // console.log('arr', arr)
                     if (arr && arr.length > 0) {
                         arr.map(item => {
                             arrDoctorId.push(item.doctorId)
